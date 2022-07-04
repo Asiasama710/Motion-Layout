@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/screen"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:src="@drawable/screen" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#2B2B2B"
+        android:padding="12dp"
+        android:text="My video title"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteY="179dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
